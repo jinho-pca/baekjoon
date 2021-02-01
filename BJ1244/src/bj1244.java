@@ -22,11 +22,11 @@ public class bj1244 {
             int sex = Integer.parseInt(st.nextToken());
             int num = Integer.parseInt(st.nextToken());
 
-            if(sex == 1) { // 남자
+            if(sex == 1) { //  남자
                 for(int j = num; j <= T; j += num) {
                     switchArray[j-1] = switchArray[j-1] == 0 ? 1 : 0;
                 }
-            } else { // 여자
+            } else { //  여자
                 for(int j = num-1; j > 0 && 2*num - j-1 <T; j--) {
                     if(switchArray[j-1] == switchArray[2*num - j-1]) {
                         switchArray[j-1] = switchArray[j-1] = switchArray[j-1] == 0 ? 1 : 0;
