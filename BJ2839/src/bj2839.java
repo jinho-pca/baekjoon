@@ -37,3 +37,8 @@ public class bj2839 {
         System.out.println(result);
     }
 }
+
+/**
+ * 백준에서 처음 풀어보는 알고리즘 문제였다.
+ *
+ * */
